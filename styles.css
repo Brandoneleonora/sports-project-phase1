@@ -1,11 +1,36 @@
 body  {
     margin: 0;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9956aeaf-2c66-41ac-85e8-1423f66ad703/d9xet34-e5e352ca-b909-4476-b611-22a4178dda11.jpg/v1/fill/w_1600,h_1000,q_75,strp/kobe_bryant_nba_wallpaper_4_0_by_skythlee_d9xet34-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAwMCIsInBhdGgiOiJcL2ZcLzk5NTZhZWFmLTJjNjYtNDFhYy04NWU4LTE0MjNmNjZhZDcwM1wvZDl4ZXQzNC1lNWUzNTJjYS1iOTA5LTQ0NzYtYjYxMS0yMmE0MTc4ZGRhMTEuanBnIiwid2lkdGgiOiI8PTE2MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.T_nE3ffeC-ArQ1n69Hu8aAKeBSUs96XVIsZg6JD3WNg')
+
 }
 
 .navBar {
     width: 100%;
-    background-color:beige;
+    background-color:purple;
     font-size: 2rem;
     color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navBar2 {
+  padding-right: 40px;
+}
+
+
+.search {
+    display: flex;
     justify-content: center;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+
+.searchBar {
+    
 }
