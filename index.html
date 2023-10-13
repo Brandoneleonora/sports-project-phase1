@@ -9,23 +9,22 @@
 </head>
 
 <body>
-    <div class="navBar">
-        <div>
-            <a>NBA Stats Website</a>
+    <div class="Header">
+        <div class="search-container">
+            <form action="" class="search-bar" id="search-form">
+                <input type="text" placeholder="Team Name..." id="input">
+                <button id="search-button">Search</button>
+            </form>
         </div>
-        <div class="navBar2">
-            <a>Home</a>
-            <a>Search</a>
+
+        <div class="displayAll">
+            <button id="showAll">Show All</button>
         </div>
     </div>
 
-    <div class="container">
-        <form>
-            <input placeholder="Search..." type="text">
-            <button>Search</button>
-        </form>
-    </div>
+    <div class="card-holders" id="allCards">
     
+    </div>
     <script src="main.js"></script>
 </body>
 
