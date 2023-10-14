@@ -1,3 +1,5 @@
+const empyt_heart = "♡"
+const full_heart = "❤️"
 
 let apiUrl = "https://www.balldontlie.io/api/v1/teams"
 
@@ -16,8 +18,9 @@ function display(input){
             cards.innerHTML = `
             <h1>Team Name: ${e.full_name}</h1>
             <p>City: ${e.city}</p>
-            <p>Division: ${e.divison}</p>
+            <p>Division: ${e.division}</p>
             <p>Abreviation: ${e.abbreviation}</p>
+            <button id='heart'>♡</button>
             `
             
             
@@ -28,16 +31,38 @@ function display(input){
             cards.innerHTML = `
             <h1>Team Name: ${e.full_name}</h1>
             <p>City: ${e.city}</p>
-            <p>Division: ${e.divison}</p>
+            <p>Division: ${e.division}</p>
             <p>Abreviation: ${e.abbreviation}</p>
+            <button class='heart'>♡</button>
             `
             
             
             document.querySelector('.card-holders').appendChild(cards)
         }  
-    })}
+    })
+    heartButton()
+}
     )
     }
+
+function heartButton(){
+    const hrtButton = document.getElementsByClassName('heart')
+    const buttonArray = [...hrtButton]
+
+    buttonArray.forEach(e => {
+        e.addEventListener('click', () => {
+            if (e.innerHTML == empyt_heart){
+                e.innerHTML = full_heart
+            }else {
+                e.innerHTML = empyt_heart
+            }
+        })
+    })
+
+
+}
+
+
 
 const searchForm = document.getElementById("search-form")
 
