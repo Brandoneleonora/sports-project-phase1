@@ -85,4 +85,5 @@ body  {
     outline: none;
     background: transparent;
     margin-left: 10px;
+    cursor: pointer;
 }
