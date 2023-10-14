@@ -20,7 +20,7 @@ function display(input){
             <p>City: ${e.city}</p>
             <p>Division: ${e.division}</p>
             <p>Abreviation: ${e.abbreviation}</p>
-            <button id='heart'>♡</button>
+            <button class='heart'>♡</button>
             `
             
             
